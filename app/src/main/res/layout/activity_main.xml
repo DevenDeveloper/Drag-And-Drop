@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/bottomlinear"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:gravity="center"
+        android:background="#E9967a"
+        android:orientation="vertical" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/one"
+            android:textSize="30sp"
+            android:text="Drag it" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomlinear1"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:gravity="center"
+        android:background="#00CED1"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drop"
+            android:textSize="30sp"
+            android:text="Drop Here" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Total"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Sucess"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
