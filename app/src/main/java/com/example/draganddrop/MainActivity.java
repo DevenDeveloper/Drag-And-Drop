@@ -1,7 +1,7 @@
 package com.example.draganddrop;
 
 import android.content.ClipData;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.DragEvent;
 import android.view.MotionEvent;
